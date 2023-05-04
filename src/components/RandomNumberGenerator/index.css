@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: #ffffff;
+  height: 370px;
+  width: 350px;
+  padding: 25px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 24px;
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.para {
+  font-family: 'roboto';
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+  font-weight: 500;
+}
+
+.button {
+  height: 30px;
+  width: 80px;
+  margin-top: 15px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.count {
+  font-family: 'roboto';
+  font-size: 42px;
+  color: #0b69ff;
+  font-weight: bold;
+}
